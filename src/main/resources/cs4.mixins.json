@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.creativesquad.cs4.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ItemEntityMixin", "PlayerInfoEntryMixin", "PlayerNameMixin", "PlayerListMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

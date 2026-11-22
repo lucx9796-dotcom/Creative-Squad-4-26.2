@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cs4",
+  "version": "${version}",
+  "name": "Creative Squad 4",
+  "description": "Reliquias lendarias feitas com itens do proprio Minecraft.",
+  "authors": ["Creative Squad"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.creativesquad.cs4.Cs4Mod"] },
+  "mixins": ["cs4.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
